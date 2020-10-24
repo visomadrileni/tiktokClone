@@ -1,0 +1,64 @@
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 80px;
+    width: 100%;
+    top:60px;
+    padding-left:378px;
+    background-color: black;
+    padding-bottom: 15px;
+
+    .firstContainer{
+        
+        & h2{
+            display: block;
+            font-size: 1.2em;
+            color: white;
+        }
+
+        & button{
+            background-color: #fe2c55;
+        }
+
+        .tips{
+             & p {
+                width:400px;
+                display:flex;
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: center;
+                color: #dcdcde;
+                font-size: 10px;
+                font-weight: 400;
+                font-family: "sofiapro-regular",PingFangSC,sans-serif;
+                
+             }
+        }
+    }
+
+    .download-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 200px;
+ 
+        & h2{
+            display: block;
+            font-size: 1.2em;
+            color: white;
+        }
+
+        .downloadTo{
+            align-items: center;
+            justify-content: space-between;        
+
+            & img{
+                height: 20px;
+                width: 10px;
+            }
+        }
+    }
+}
